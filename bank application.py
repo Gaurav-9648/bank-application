@@ -78,7 +78,7 @@ def deposit():
     amt = int(input('enter amount'))
     b = b+amt
 
-def withdrwa():
+def withdraw():
     global b
     amt = int(input('enter amount:'))
     b = b-amt
